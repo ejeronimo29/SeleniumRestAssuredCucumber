@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+    <test name="TallerTestSuite" >
+        <classes>
+            <class name="getEndpoint" >
+                <parameter name="lat" value="37.7749"/>
+                <parameter name="lon" value="122.4194"/>
+                <parameter name="apik" value="f55559f6fd1086226a7d022a124fb272"/>
+            </class>
+            <class name="testSearch" >
+                <parameter name="country" value="San Francisco, California"/>
+            </class>
+        </classes>
+    </test>
+</suite>
